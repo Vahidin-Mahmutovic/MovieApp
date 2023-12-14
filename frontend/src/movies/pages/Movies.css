@@ -1,0 +1,26 @@
+
+.movies_page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .search {
+    align-items: center;
+    width: 100%;
+    border: transparent;
+    max-width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    color: hsl(209, 34%, 30%);
+    letter-spacing: 0.1rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .pagination {
+    margin-top: 2.5rem;
+  }
+  

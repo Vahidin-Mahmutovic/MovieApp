@@ -1,0 +1,73 @@
+
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.single-movie {
+  max-width: 900px;
+  margin: 4rem auto;
+  display: flex;
+  gap: 2rem;
+}
+
+.single-movie img {
+  width: 300px;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.378);
+}
+
+.single-movie-info p {
+  max-width: 35em;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.backLink {
+  text-decoration: none;
+  color: rgba(255, 255, 255);
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.378);
+}
+
+.backLink:hover {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.single-movie-info h4 {
+  margin-top: 0.5rem;
+  color: rgb(185, 185, 185);
+}
+
+.editdelete {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.single-movie-info h2{
+  letter-spacing: 0.58rem;
+  color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .single-movie {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .single-movie img {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .single-movie {
+    gap: 1rem;
+  }
+}
+
